@@ -1,0 +1,53 @@
+﻿#header #nav ul
+{
+	list-style: none;
+	position: relative;
+	left: 60px;
+	top: -48px;
+}
+
+ul.tab-nav
+{
+	list-style: none;
+	margin-left: 105px;
+	position: absolute;
+}
+
+.tab
+{
+	left: 272px;
+	top: 233px;
+	width: 500px;
+}
+
+h2
+{
+	font-size: 1.1em;
+	padding-top: 10px;
+}
+
+#header img.background
+{
+	margin-top: -3px;
+}
+
+ul.product-list li
+{
+	padding-bottom: 75px;
+	padding-right: 5px;
+}
+
+.drive-peripherals
+{
+	height: 845px;
+}
+
+.drive-peripherals ul.product-list li
+{
+	padding-bottom: 136px;
+}
+
+.ac-drives 
+{
+	height: 917px;
+}
