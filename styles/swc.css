@@ -253,7 +253,6 @@ img.home-image
 .item-list .name, .item-list-first .name
 {
 	font: normal 1.0em/1.4em Arial, Verdana, sans-serif; color: #696969; font-style: italic; font-weight: bold;
-	display: inline;
 	padding-right: 5px;
 }
 
