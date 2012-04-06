@@ -1,0 +1,7 @@
+#center{ width: 1000px; margin: auto; }
+
+.smaller-callout p { font-size: 14px !important; }
+.smaller-callout { padding: 30px !important; }
+
+img.home-image { float: right; margin: 5px; }
+.homepage-content { overflow: auto; }
