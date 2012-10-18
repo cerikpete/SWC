@@ -1,7 +1,16 @@
-#center{ width: 1000px; margin: auto; }
+body { background-color: #666 !important; }
+
+#center{ width: 1000px; margin: 10px auto 0 auto; background-color: white;}
+h2, h3 { color: #666 !important; }
+
+.main-container { margin-left: 35px; width: 780px;}
 
 .smaller-callout p { font-size: 14px !important; }
 .smaller-callout { padding: 30px !important; }
 
 img.home-image { float: right; margin: 5px; }
 .homepage-content { overflow: auto; }
+
+.navbar { width: 783px; margin-left: 33px; margin-top: 2px; }
+.navbar-inner {background-image: none !important; background-color:#0000FF !important;}
+.navbar-inner .nav .active a { background-color:#0000FF !important;}
