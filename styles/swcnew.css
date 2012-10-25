@@ -13,4 +13,7 @@ img.home-image { float: right; margin: 5px; }
 
 .navbar { width: 783px; margin-left: 33px; margin-top: 2px; }
 .navbar-inner {background-image: none !important; background-color:#0000FF !important;}
+.navbar-inner .nav li.active a,  .navbar-inner .nav li a:hover
+{ color:white !important;}
+.navbar-inner .nav a { color:#FFDC73 !important;}
 .navbar-inner .nav .active a { background-color:#0000FF !important;}
