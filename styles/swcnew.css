@@ -1,6 +1,8 @@
 body { background-color: #666 !important; }
 
-#center{ width: 1000px; margin: 10px auto 0 auto; background-color: white;}
+#center{ width: 1000px; margin: 10px auto 0 auto; background-color: white; position:relative;}
+#center img.bottom { position: absolute; left: 14px; top: 61px;}
+
 h2, h3 { color: #666 !important; }
 
 .main-container { margin-left: 35px; width: 780px;}
