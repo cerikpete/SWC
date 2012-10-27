@@ -1,21 +1,24 @@
-body { background-color: #EEE !important; }
-
-#center{ width: 1000px; margin: 10px auto 10px auto; background-color: white; position:relative;}
+#center{ width: 819px; margin:auto; position:relative; background-image:url('../images/swcbackground.png'); background-repeat: no-repeat;}
 #center img.bottom { position: absolute; left: 14px; top: 61px;}
 
 h2, h3 { color: #666 !important; }
 
-.main-container { margin-left: 35px; width: 780px;}
+.main-container { margin-left: 22px; width: 780px;}
 
 .smaller-callout p { font-size: 14px !important; }
-.smaller-callout { padding: 30px !important; }
+.smaller-callout { padding: 10px !important; }
 
 img.home-image { float: right; margin: 5px; }
 .homepage-content { overflow: auto; }
+.row > .right, .row > .left { height: 244px; position: relative; }
+.row > .left > p > a.btn,
+.row > .right > p > a.btn { position: absolute; left: 10px; bottom: 10px; }
 
 .navbar { width: 783px; margin-left: 33px; margin-top: 2px; }
-.navbar-inner {background-image: none !important; background-color:#0000FF !important;}
+.navbar-inner {background-image: none !important; background-color:#CCC !important;}
 .navbar-inner .nav li.active a,  .navbar-inner .nav li a:hover
-{ color:white !important;}
-.navbar-inner .nav a { color:#FFDC73 !important;}
-.navbar-inner .nav .active a { background-color:#0000FF !important;}
+  { color:#FFF !important;}
+.navbar-inner .nav a { color:#0000AA !important;}
+.navbar-inner .nav .active a { background-color:#BBB !important;}
+.hero-unit { opacity: 0.8; }
+.span5 { width: 360px !important; }
