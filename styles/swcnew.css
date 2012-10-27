@@ -1,7 +1,7 @@
 #center{ width: 819px; margin:auto; position:relative; background-image:url('../images/swcbackground.png'); background-repeat: no-repeat;}
 #center img.bottom { position: absolute; left: 14px; top: 61px;}
 
-h2, h3 { color: #666 !important; }
+h2, h3 { color: #00A !important; }
 
 .main-container { margin-left: 22px; width: 780px;}
 
@@ -15,10 +15,15 @@ img.home-image { float: right; margin: 5px; }
 .row > .right > p > a.btn { position: absolute; left: 10px; bottom: 10px; }
 
 .navbar { width: 783px; margin-left: 33px; margin-top: 2px; }
-.navbar-inner {background-image: none !important; background-color:#CCC !important;}
+.navbar-inner {background-image: none !important; background-color:#0000AA !important;}
 .navbar-inner .nav li.active a,  .navbar-inner .nav li a:hover
   { color:#FFF !important;}
-.navbar-inner .nav a { color:#0000AA !important;}
-.navbar-inner .nav .active a { background-color:#BBB !important;}
-.hero-unit { opacity: 0.8; }
+.navbar-inner .nav a { color:#BBB !important;}
+.navbar-inner .nav .active a { background-color:#0000AA !important;}
+.hero-unit { 
+  opacity: 0.8; 
+  -moz-opacity: 0.80;
+  opacity:.80;
+  filter: alpha(opacity=80);
+}
 .span5 { width: 360px !important; }
