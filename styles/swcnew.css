@@ -1,18 +1,20 @@
-#center{ width: 819px; margin:auto; position:relative; background-image:url('../images/swcbackground.png'); background-repeat: no-repeat;}
-#center img.bottom { position: absolute; left: 14px; top: 61px;}
+body { background-color: whiteSmoke !important; }
+.main-container{ background: whiteSmoke url('../images/background.png') repeat-y 50%; overflow:auto;}
 
 h2, h3 { color: #00A !important; }
 
-.main-container { margin-left: 22px; width: 780px;}
+.center, .header { width: 995px; margin:auto; position: relative; background-color: white; overflow: auto;}
+.header img.header-bottom { position: absolute; left: 14px; top: 61px;}
+img.home-image { float: right; margin: 5px; }
+
+.homepage-content { margin-bottom: 10px; padding: 10px; }
+.homepage-content p { line-height: 24px; }
 
 .smaller-callout p { font-size: 14px !important; }
 .smaller-callout { padding: 10px !important; }
-
-img.home-image { float: right; margin: 5px; }
-.homepage-content { overflow: auto; }
-.row > .right, .row > .left { height: 244px; position: relative; }
-.row > .left > p > a.btn,
-.row > .right > p > a.btn { position: absolute; left: 10px; bottom: 10px; }
+.smaller-callout.right, .smaller-callout.left { height: 244px; position: relative; }
+.smaller-callout.left > p > a.btn,
+.smaller-callout.right > p > a.btn { position: absolute; left: 10px; bottom: 10px; }
 
 .navbar { width: 783px; margin-left: 33px; margin-top: 2px; }
 .navbar-inner {background-image: none !important; background-color:#0000AA !important;}
@@ -20,10 +22,4 @@ img.home-image { float: right; margin: 5px; }
   { color:#FFF !important;}
 .navbar-inner .nav a { color:#BBB !important;}
 .navbar-inner .nav .active a { background-color:#0000AA !important;}
-.hero-unit { 
-  opacity: 0.8; 
-  -moz-opacity: 0.80;
-  opacity:.80;
-  filter: alpha(opacity=80);
-}
-.span5 { width: 360px !important; }
+.span5 { width: 370px !important; }
